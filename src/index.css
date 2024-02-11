@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.list-container {
+  width: 100%;
+  height: 90vh;
+  background-color: #171717;
+  position: relative;
+}
+
+.bio-container {
+  width: 100%;
+  height: 90vh;
+  background-color: #171717;
+  position: relative;
+}
+
+.bio-content {
+  width: 500px;
+  height: 70vh;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: rgba(75, 85, 99, 0.1);
+  padding: 32px;
+  border-radius: 12px;
+}
+
+.bio-name {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.bio-btn {
+  text-align: left;
+}
+
+.bio-img {
+  border-radius: 8px;
+}
+
+.bio-details span {
+  margin-right: 12px;
+}
+
+.people-card-container {
+  overflow-y: scroll;
+  width: 500px;
+  margin: 0% auto;
+  height: 80vh;
+  background-color: rgba(75, 85, 99, 0.1);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%);
+  padding: 32px;
+}
+
+.people-card-container::-webkit-scrollbar {
+  display: none;
+}
+
+.img-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.people-name {
+  color: #fff;
+  font-size: 18px;
+  align-self: center;
+}
+
+.people-card {
+  padding: 8px 12px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 32px;
+  background-color: rgb(255, 255, 255, 0.1);
+}
+
+.people-card:hover {
+  border-radius: 12px;
+  transition: all 0.5s;
+  transform: scale(1.05);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  column-gap: 18px;
+}
+
+.arrow {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
